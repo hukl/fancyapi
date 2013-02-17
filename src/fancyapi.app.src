@@ -1,0 +1,12 @@
+{application, fancyapi,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { fancyapi_app, []}},
+  {env, []}
+ ]}.
